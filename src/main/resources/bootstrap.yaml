@@ -1,0 +1,3 @@
+spring:
+    cloud:
+      config.server.git.uri: ${HOME}/CICD/config-server
