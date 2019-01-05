@@ -1,3 +1,7 @@
 spring:
+    profiles:
+        active: native
     cloud:
-      config.server.git.uri: ${HOME}/CICD/config-server
+      config:
+        server:
+          native: classpath:config/
